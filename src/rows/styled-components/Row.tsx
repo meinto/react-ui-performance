@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import { SPACE, IMAGE_SIZE } from '../constants'
 
-const SPACE = 20
 const RowContainer = styled.div`
   border-width: 2px;
   border-color: #ccc;
@@ -58,7 +58,6 @@ export const Row = ({ index, name }: { index: number, name: string }) => (
   </RowContainer>
 )
 
-const IMAGE_SIZE = 100
 const Image = styled.div`
   background-color: #ccc;
   width: ${IMAGE_SIZE}px;

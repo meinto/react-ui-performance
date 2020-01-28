@@ -1,6 +1,6 @@
 import React from 'react'
+import { SPACE, IMAGE_SIZE } from '../constants'
 
-const SPACE = 20
 export const Row = ({ index, name }: { index: number, name: string }) => (
   <div style={{
     borderWidth: 2,
@@ -56,7 +56,6 @@ export const Row = ({ index, name }: { index: number, name: string }) => (
   </div>
 )
 
-const IMAGE_SIZE = 100
 const Image = () => (
   <div style={{
     backgroundColor: '#ccc',
