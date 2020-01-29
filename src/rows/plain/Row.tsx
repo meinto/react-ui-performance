@@ -65,7 +65,7 @@ const Image = () => (
   }}/>
 )
 
-const Box = ({
+export const Box = ({
   children,
   mr, ml, mt, mb,
   pr, pl, pt, pb,
